@@ -52,7 +52,7 @@ enum rk_pcie_device_mode {
 	RK_PCIE_RC_TYPE,
 };
 
-#define RK_PCIE_DBG			0
+#define RK_PCIE_DBG			1
 
 #define PCIE_DMA_OFFSET			0x380000
 
