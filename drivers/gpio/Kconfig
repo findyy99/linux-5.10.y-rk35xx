@@ -939,6 +939,15 @@ config GPIO_AW9110
 	  This driver provides an in-kernel interface to those GPIOs using
 	  platform-neutral GPIO calls.
 
+config GPIO_AW9523
+	tristate "AW9523 I2C GPIO expander"
+	depends on I2C
+	help
+	  Say yes here to enable GPIO support for AW9523 I2C expander.
+	  This GPIO expander has 16 GPIO lines with interrupt support.
+
+
+
 config GPIO_GW_PLD
 	tristate "Gateworks PLD GPIO Expander"
 	depends on OF_GPIO
